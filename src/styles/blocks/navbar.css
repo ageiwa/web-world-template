@@ -11,6 +11,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    position: relative;
 }
 
 .navbar__menu {
@@ -56,6 +57,22 @@
 }
 
 .navbar__search-form {
+    border: 1px solid #b5b5b5;
+    padding-left: 19px;
+    padding-right: 47px;
     width: 191px;
     height: 36px;
+    color: #b5b5b5;
+    outline: none;
+}
+
+.navbar__search-form:focus {
+    border: 1px solid #00bac6;
+}
+
+.navbar__search-icon {
+    left: calc(100% - 28px);
+    font-size: 28px;
+    color: #b5b5b5;
+    position: absolute;
 }
