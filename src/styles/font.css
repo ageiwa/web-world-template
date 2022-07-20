@@ -21,7 +21,7 @@
 @font-face {
     font-family: "Pacifico";
     src: url("../fonts/Pacifico/Pacifico.woff2"),
-         url("../fonts/Pacifico/Pacifico-Regular.woff"),
+         url("../fonts/Pacifico/Pacifico.woff"),
          url("../fonts/Pacifico/Pacifico.ttf");
     font-style: normal;
     font-weight: 300;
