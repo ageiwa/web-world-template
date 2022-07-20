@@ -62,8 +62,10 @@
     padding-right: 47px;
     width: 191px;
     height: 36px;
+    background-color: transparent;
     color: #b5b5b5;
     outline: none;
+    z-index: 2;
 }
 
 .navbar__search-form:focus {
@@ -72,7 +74,7 @@
 
 .navbar__search-icon {
     left: calc(100% - 28px);
-    font-size: 28px;
     color: #b5b5b5;
     position: absolute;
+    z-index: 1;
 }
