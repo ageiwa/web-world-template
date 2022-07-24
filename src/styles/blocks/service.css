@@ -1,6 +1,6 @@
 .service {
     width: 100%;
-    height: 544px;
+    height: 495px;
 }
 
 .service__container {
@@ -47,10 +47,6 @@
     flex-direction: column;
     align-items: center;
     cursor: pointer;
-}
-
-.service__item:hover .item__img {
-    
 }
 
 .item__item-title {
