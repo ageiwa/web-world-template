@@ -6,7 +6,7 @@
 
 .header__container {
     margin: 0 auto;
-    width: 1366px;
+    width: 980px;
     height: 100%;
     display: flex;
     align-items: center;
@@ -14,7 +14,7 @@
 }
 
 .header__logo {
-    margin-left: 200px;
+    margin-left: 10px;
     font-family: "Pacifico";
     font-size: 24px;
     color: #fff;
@@ -25,7 +25,7 @@
 }
 
 .header__social {
-    margin-right: 200px;
+    margin-right: 10px;
     width: 165px;
     display: flex;
     justify-content: space-between;
