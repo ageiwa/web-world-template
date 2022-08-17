@@ -90,18 +90,3 @@
     font-size: 50px;
     color: #c1c1c1;
 }
-
-/* Small devices (landscape phones, 992px and down)*/
-@media (max-width: 992px) {
-    .navbar__container {
-        width: 100%;
-    }
-
-    .navbar__menu {
-        display: none;
-    }
-
-    .navbar__menu-btn {
-        display: block;
-    }
-}

@@ -1,0 +1,17 @@
+/* Small devices (landscape phones, 992px and down)*/
+@media (max-width: 992px) {
+    .header__container, .navbar__container, 
+    .slider__container, .service__container,
+    .gallery__container, .sponsors__container,
+    .about-us__container, .footer__container {
+        width: 100%;
+    }
+
+    .navbar__menu {
+        display: none;
+    }
+
+    .navbar__menu-btn {
+        display: block;
+    }
+}
