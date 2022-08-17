@@ -14,4 +14,13 @@
     .navbar__menu-btn {
         display: block;
     }
+
+    .gallery {
+        height: auto;
+    }
+
+    .gallery__container {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+    }
 }

@@ -10,8 +10,8 @@
     width: 980px;
     height: 100%;
     display: grid;
-    grid-template-columns: repeat(3, 310px);
-    grid-template-rows: repeat(2, 280px);
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
     gap: 25px;
 }
 
