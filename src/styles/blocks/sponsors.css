@@ -7,7 +7,28 @@
     margin: 0 auto;
     width: 980px;
     height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr;
+}
+
+.sponsors__link {
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.dribble {
+    background-image: url(../../img/dribbble.png);
+}
+
+.leopardsmedia {
+    background-image: url(../../img/leopards-media.png);
+}
+
+.behance {
+    background-image: url(../../img/behance.png);
+}
+
+.puma {
+    background-image: url(../../img/puma.png);
 }

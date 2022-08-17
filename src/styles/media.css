@@ -24,6 +24,11 @@
         grid-template-rows: repeat(3, 1fr);
     }
 
+    .sponsors__container {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);;
+    }
+
     .about-us__item-about-us {
         width: 100%;
     }
