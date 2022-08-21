@@ -4,17 +4,7 @@
     background-color: #252323;
 }
 
-.header__container {
-    margin: 0 auto;
-    width: 980px;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
 .header__logo {
-    margin-left: 10px;
     font-family: "Pacifico";
     font-size: 24px;
     color: #fff;
@@ -25,10 +15,9 @@
 }
 
 .header__social {
-    margin-right: 10px;
-    width: 165px;
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    gap: 20px;
 }
 
 .social__link {
