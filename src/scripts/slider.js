@@ -1,20 +1,21 @@
-const sliderImg = document.querySelectorAll('.slider__img');
+const sliderImgBlock = document.querySelector('.slider__img');
 const radioBtn = document.querySelectorAll('.slider__radio-btn');
 const arrowRight = document.querySelector('#arrow-right');
 const arrowLeft = document.querySelector('#arrow-left');
 
 let numberImg = 0;
+const img = ['bridge-1.jpg', 'bridge-2.jpg', 'bridge-3.jpg', 'bridge-4.jpg', 'bridge-5.jpg'];
 
 arrowRight.addEventListener('click', () => {
-    if (numberImg < sliderImg.length-1) numberImg++;
+    if (numberImg < img.length-1) numberImg++;
     else numberImg = 0;
 
     changeImg(numberImg);
 });
 
 arrowLeft.addEventListener('click', () => {
-    if (numberImg > 0) numberImg--;
-    else numberImg = sliderImg.length-1;
+    if (numberImg > 1) numberImg--;
+    else numberImg = img.length-1;
 
     changeImg(numberImg);
 });
@@ -27,11 +28,9 @@ for (let i = 0; i < radioBtn.length; i++) {
 }
 
 function changeImg(i) {
-    const sliderImgActive = document.querySelector('.slider__img_active');
-    const radioBtnActive = document.querySelector('.slider__radio-btn_active');
+    sliderImgBlock.style.backgroundImage = 'url(./src/img/' + img[i] + ')';
 
-    sliderImgActive.classList.remove('slider__img_active');
-    sliderImg[i].classList.add('slider__img_active');
+    const radioBtnActive = document.querySelector('.slider__radio-btn_active');
 
     radioBtnActive.classList.remove('slider__radio-btn_active');
     radioBtn[i].classList.add('slider__radio-btn_active');
