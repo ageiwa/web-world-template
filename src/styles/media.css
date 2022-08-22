@@ -44,6 +44,18 @@
         width: 100%;
     }
 
+    .slider-text__title, .slider-text__subtitle {
+        text-align: center;
+        font-family: "OpenSans-Bold";
+        font-size: 24px;
+        color: #fff;
+    }
+    
+    .slider-text__subtitle {
+        font-family: "PTSans";
+        font-size: 10px;
+    }
+
     .footer__subscribe {
         font-family: "PTSans";
         font-size: 12px;
@@ -78,6 +90,14 @@
         padding-left: 10px;
         padding-right: 10px;
         width: 100%;
+    }
+
+    #arrow-left {
+        left: 25px;
+    }
+    
+    #arrow-right {
+        left: calc(100% - 50px);
     }
 }
 
