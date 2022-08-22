@@ -8,12 +8,32 @@
         gap: 10px;
     }
 
+    .navbar__menu-btn {
+        display: block;
+    }
+
+    .navbar__menu-btn:hover ~ .navbar__menu {
+        top: 64px;
+        display: block;
+        position: absolute;
+    }
+
+    .navbar__menu:hover {
+        top: 64px;
+        display: block;
+        position: absolute;
+    }
+
+    .menu__item {
+        border: 1px solid #efefef;
+    }
+
     .navbar__menu {
         display: none;
     }
-
-    .navbar__menu-btn {
-        display: block;
+    
+    .menu__link {
+        line-height: 30px;
     }
 
     .navbar__container-input {
