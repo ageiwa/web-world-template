@@ -11,6 +11,7 @@
 }
 
 .footer__social {
+    margin-left: 10px;
     display: grid;
     grid-template-columns: repeat(4, auto);
     gap: 20px;
