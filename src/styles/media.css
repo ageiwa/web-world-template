@@ -44,15 +44,21 @@
         width: 100%;
     }
 
-    .slider-text__title, .slider-text__subtitle {
-        text-align: center;
-        font-family: "OpenSans-Bold";
+    .slider-text__title {
         font-size: 24px;
-        color: #fff;
     }
     
     .slider-text__subtitle {
-        font-family: "PTSans";
+        font-size: 10px;
+    }
+
+    .service-text__header {
+        margin-top: 30px;
+        font-size: 24px;
+    }
+
+    .service-text__subtitle {
+        margin-top: 5px;
         font-size: 10px;
     }
 
@@ -81,6 +87,23 @@
         padding-left: 6px;
         padding-right: 6px;
         font-size: 12px;
+    }
+
+    .service {
+        height: auto;
+    }
+
+    .service__item-container {
+        flex-direction: column;
+    }
+
+    .service__item {
+        margin-bottom: 50px;
+    }
+
+    .item__item-subtitle {
+        padding-left: 10%;
+        padding-right: 10%;
     }
 }
 
