@@ -23,6 +23,11 @@
     #arrow-right {
         left: calc(100% - 50px);
     }
+
+    .about-us {
+        padding-bottom: 35px;
+        height: auto;
+    }
 }
 
 /* Small devices (landscape phones, less than 768px)*/
@@ -60,9 +65,28 @@
     }
 
     .sponsors .container {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+    }
+
+    .about-us .container {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(2, 1fr);
+    }
+
+    .about-us__item_to-right {
+        padding-right: 0;
+    }
+    
+    .about-us__item_to-left {
+        padding-left: 0;
+    }
+
+    .about-us__item-about-us {
+        padding-left: 40px;
+        padding-right: 40px;
+        width: 100%;
     }
 }
 
@@ -136,7 +160,11 @@
     }
 
     .sponsors .container {
-        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(4, 1fr);
+    }
+
+    .about-us .container {
         grid-template-columns: 1fr;
         grid-template-rows: repeat(4, 1fr);
     }
