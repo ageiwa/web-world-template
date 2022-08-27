@@ -14,7 +14,7 @@ arrowRight.addEventListener('click', () => {
 });
 
 arrowLeft.addEventListener('click', () => {
-    if (numberImg > 1) numberImg--;
+    if (numberImg > 0) numberImg--;
     else numberImg = img.length-1;
 
     changeImg(numberImg);
