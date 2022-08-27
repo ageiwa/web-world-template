@@ -1,6 +1,5 @@
 .sponsors {
     width: 100%;
-    height: auto;
 }
 
 .sponsors .container {
@@ -10,16 +9,17 @@
 }
 
 .sponsors__link {
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
     width: 100%;
     height: 100%;
     display: flex;
-    align-items: flex-end;
     justify-content: center;
 }
 
 .sponsors__img {
-    width: 65%;
-    height: auto;
+    max-width: 100%;
+    max-height: 100%;
 }
